@@ -1,0 +1,20 @@
+form{
+    margin-top: 3rem;
+}
+#sub{
+    background-color: white;
+    position:absolute;
+}
+
+form input[name="city"],
+form input[name="country"]{
+    background-color: white;
+    color: black;
+    border-bottom: 2px solid rgb(245, 245, 245);
+    border-radius: 0;
+}
+
+form input:focus{
+    background-color: transparent;
+    box-shadow:none !important;
+}
